@@ -60,7 +60,7 @@ Edit
 terraform apply -var-file="envs/dev/terraform.tfvars"
 
 
-🔐 Secrets Management
+**## Secrets Management**
 Secrets (like IAM credentials, DB passwords) are managed using:
 
 secrets_manager.tf for integration with AWS Secrets Manager
